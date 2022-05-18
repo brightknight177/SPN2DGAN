@@ -43,7 +43,7 @@ Paper: 《SPN2D-GAN: A Night-to-day Image-to-Image Translator Based on Semantic 
 > python train.py --dataroot ./datasets/YOUR_DATASET_NAME --name SPN2DGAN
 ```
 - pretrained semantic mask extraction network and semantic supervision network model: [Google_drive](https://drive.google.com/drive/folders/1-bvVwYqlhm1zuU3W3GFLizzA2kKVufze?usp=sharing)
-- Note that the path to the ACDC dataset needs to be changed manually in data/unaligned_dataset.py.
+- Note that the path to the ACDC dataset needs to be changed manually in `data/unaligned_dataset.py`.
 
 
 ### Test
