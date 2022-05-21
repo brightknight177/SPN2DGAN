@@ -28,7 +28,10 @@ import torch
 import numpy as np
 
 if __name__ == '__main__':
+    SEED = 123
+    torch.manual_seed(SEED)
     torch.backends.cudnn.deterministic = True
+    np.random.seed(SEED)
 
     opt = TrainOptions().parse()   # get training options
     dataset = create_dataset(opt)  # create a dataset given opt.dataset_mode and other options
